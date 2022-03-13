@@ -3,7 +3,7 @@
 * main - This function prints the sizes of different types.
 * Return: This function returns 0.
 */
-int main<void>
+int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
         printf("Size of an int: %d byte(s)\n", sizeof(int));
