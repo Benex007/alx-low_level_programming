@@ -5,7 +5,7 @@
  * main - entry block
  * @void: no argumet
  * * Return: 0 (Success)
- * */
+**/
 int main(void)
 {
 int n;
