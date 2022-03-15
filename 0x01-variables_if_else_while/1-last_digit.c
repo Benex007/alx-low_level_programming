@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Evaluating random numbers
- * Description: Get the last number of n and print if it is greater than 0
+ * main - Entry point
+ * Description: prints "Programming is like building a multilingual puzzle"
  * Return: 0
  */
 
