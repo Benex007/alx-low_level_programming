@@ -1,17 +1,23 @@
 #include <stdio.h>
+#include<stdlib.h>
+
 /**
- * main - Prints alphabet in lowercase
- * Return: 0 for success
+ * main - Entry point
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-char letter = 'a';
+	char lowercase_char;
 
-while (letter <= 'z')
-{
-	putchar(letter);
-	letter++;
+	lowercase_char = 'a';
+
+	while (lowercase_char <= 'z')
+	{
+		putchar(lowercase_char);
+		lowercase_char = lowercase_char + 1;
+	}
+	putchar('\n');
+	return (0);
 }
-putchar('\n');
-return (0);
-}
+
