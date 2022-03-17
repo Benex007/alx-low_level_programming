@@ -1,21 +1,21 @@
-#include<stdio.h>
-
+#include <stdio.h>
 /**
- * main -Prints all single digit numbers of base 10
- * Return: 0 for success
+ * main - Entry point
+ *
+ * Return: Always 0 (success/corect)
  */
-
 int main(void)
+
 {
+int i;
 
-	char num = '0';
-
-	while (num <= '9')
-	{
-	putchar(num);
-	num++;
-	}
-	putchar('\n');
-	return (0);
+for (i = 48 ; i <= 57; i++)
+{
+putchar (i);
 }
 
+putchar ('\n');
+
+return (0);
+
+}
