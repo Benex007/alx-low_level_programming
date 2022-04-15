@@ -2,13 +2,15 @@
 #include <stdio.h>
 
 /**
- * print_dog - prints a struct dog.
- * @d: struct dog.
+ * print_dog - prints a dog
  *
- * Return: no return.
+ * @d: dog to print
+ *
+ * Return: void
  */
 void print_dog(struct dog *d)
 {
+<<<<<<< HEAD
 	if (d)
 	{
 		if (!(d->name))
@@ -23,4 +25,17 @@ void print_dog(struct dog *d)
 		else
 			printf("Owner: %s\n", d->owner);
 	}
+=======
+	if (d == 0)
+		return;
+	if (d->name == 0)
+		printf("Name: (nil)\n");
+	else
+		printf("Name: %s\n", d->name);
+	printf("Age: %f\n", d->age);
+	if (d->owner == 0)
+		printf("Owner: (nil)\n");
+	else
+		printf("Owner: %s\n", d->owner);
+>>>>>>> 7ce896dbf356f8ba77cbc542ffb3444312165b59
 }
