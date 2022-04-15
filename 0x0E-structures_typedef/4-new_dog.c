@@ -80,3 +80,4 @@ dog_t *new_dog(char *name, float age, char *owner)
 	(*snoopie).owner = new_owner;
 
 	return (snoopie);
+}
