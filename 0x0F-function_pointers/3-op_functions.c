@@ -7,7 +7,10 @@
  *
  * Return: add.
  */
-int op_add(int a, int b)i}
+int op_add(int a, int b)
+{
+	return (a + b);
+}
 
 /**
  * op_sub - subctracts two numbers.
@@ -65,4 +68,4 @@ int op_mod(int a, int b)
 		exit(100);
 	}
 	return (a % b);
-}clear
+}
